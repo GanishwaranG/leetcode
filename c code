@@ -1,0 +1,16 @@
+# include <stdio.h>
+int main(){
+    int s,i,m=0,t=0;
+    printf("Enter the number of students:");
+    scanf("%d",&s);
+    for( i=1;i<=s;i++){
+        printf("student %d : ",i);
+        scanf("%d",&m);
+        t+=m;
+    }
+    printf("total :%d\n",t);
+    int a=0;
+    a=t/s;
+    printf("The average of the class is : %d",a);
+    return 0;
+}
